@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <meta author="Jonas Nunes">
+</head>
+<body>
+    <h1>Criar Conta</h1>
+    <form action="http://atdsistemas.com.br/web/formulario/" method="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="name">Primeiro Nome: </label>
+            <input type="text" name="Nome" id="name"><br><br>
+            
+            <label for="photo">Foto: </label>
+            <input type="file" name="Arquivo de Foto" id="photo"><br><br>
+
+            <label for="cep">Endereço: </label>
+            <input type="text" name="Endereço" id="cep"><br><br>
+
+            <texto>Sexo</texto><br>
+            <input type="radio" name="Sexo" id="Masculino">
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" name="Sexo" id="Feminino">
+            <label for="Feminino">Feminino</label><br>
+            <input type="radio" name="Sexo" id="Não Definido">
+            <label for="Não Definido">Não Definido</label><br><br>
+
+            <label for="Formação">Nível de Formação Acadêmica Concluído </label>
+            <select name="former" id="Formação" value="1">
+                <option value="1">Nenhuma Formação</option>
+                <option value="2">Ensino Médio Completo</option>
+                <option value="3">Graduado</option>
+                <option value="4">Pós-Graduado</option>
+                <option value="5">Doutor</option>
+            </select> <br><br>
+            
+            <label for="area">Quem sou eu?</label><br>
+            <textarea name="areadetexto" id="area" cols="100" rows="5"></textarea>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Redes Sociais</legend>
+            <label for="twitter">Twitter: </label>
+            <input type="text" name="twt" id="twitter"><br><br>
+            <label for="instagram">Instagram: </label>
+            <input type="text" name="itg" id="instagram"><br><br>
+            <label for="facebook">Facebook: </label>
+            <input type="text" name="fbk" id="facebook"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Login</legend>
+            <label for="email">Email: </label>
+            <input type="email" name="mail" id="email"><br><br>
+            <label for="password">Senha: </label>
+            <input type="password" name="senha" id="password"><br><br>
+            <input type="checkbox" name="lembrar" id="0">
+            <label for="0">Lembrar-me</label>
+        </fieldset>
+
+        <button type="reset">Limpar Campos</button> 
+        <button type="submit">Enviar</button>
+        
+    </form>
+
+</body>
+</html>
