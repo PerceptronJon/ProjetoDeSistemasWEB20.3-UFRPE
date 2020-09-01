@@ -2,19 +2,20 @@ body{
     background-image: url(./backgroundNetflix.jpg);
     padding: 0;
     margin: 0;
+
 }
 
 .fundo-pretoopaco{
     background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 20px;
 }
 
 header{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
-    font-style: unset;
-    color: red;
-    padding-left: 40px;
-    padding-top: 10px;
+    background-image:url(./netflixlogo.png);
+    background-repeat: no-repeat;
+    size: 20px;
+    padding-top: 100px;
+    margin-inline-start: 50px;
 }
 
 section{
@@ -73,7 +74,7 @@ label{
 a{
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
-    margin-inline-start: 55px;
+    margin-inline-start: 32px;
     text-decoration: none;
 }
 a:hover{
