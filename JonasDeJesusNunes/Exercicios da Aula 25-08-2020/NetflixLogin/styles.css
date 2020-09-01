@@ -1,0 +1,103 @@
+body{
+    background-image: url(./backgroundNetflix.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+.fundo-pretoopaco{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    font-style: unset;
+    color: red;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-inline-start: 450px;
+    margin-inline-end: 450px;
+    padding-block-end: 310px;
+}
+p{  
+    margin:75px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font: bold;
+    font-size: 35px;
+}
+
+assine{
+    color: grey;
+    margin-inline-start: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+input{
+    background-color: rgb(49, 47, 47);
+    margin-inline-start: 75px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 115px;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+
+button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-inline-start: 75px;
+    padding:15px;
+    padding-right: 246px;
+    color: white;
+    /* Não funciona, porque? (Alinhar nome do botão no meio)*/
+    text-align: center;
+}
+
+label{
+    color: grey ;
+}
+
+a{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline-start: 55px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 30px;
+    padding-block-end: 5%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-config{
+    margin-inline-start: 175px;
+}
+
+.selector-config{
+    margin-inline-start: 175px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid;
+    padding: 10px;
+    color: grey;
+}
