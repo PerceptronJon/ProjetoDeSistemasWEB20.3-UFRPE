@@ -53,7 +53,7 @@ input{
 ::placeholder {
     color: grey;
     opacity: 1;
-  }
+}
 
 button{
     background-color: red;
